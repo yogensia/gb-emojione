@@ -2,6 +2,8 @@
 
 Small Tampermonkey/Greasemonkey userscript that replaces emoticons like :D or :smile: with [EmojiOne](https://github.com/Ranks/emojione) emoji images.
 
+Emoji will only appear on user input text (submission descriptions, messages, comments, etc.).
+
 Licensed under the [MIT License](https://raw.githubusercontent.com/yogensia/gb-emojione/master/LICENSE).
 
 
