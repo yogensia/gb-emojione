@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GameBanana Emoji
 // @namespace    http://gamebanana.com/members/1328950
-// @version      0.01
+// @version      0.02
 // @description  Adds EmojiOne emojis to GameBanana
 // @author       Yogensia
 // @match        http://*.gamebanana.com/*
@@ -58,7 +58,11 @@ emojione.ascii = true;
 $(function() {
 
 	$('.RichText').each(function() {
-        var source = $(this).html().replace(/<br>/g, '\n<br>').replace(/<div/g, '\n<div').replace(/<ul class="PostStamps/g, '\n<ul class="PostStamps');
+        var source = $(this).html()
+        	.replace(/<br>/g, '\n<br>')
+        	.replace(/<div/g, '\n<div')
+        	.replace(/<footer/g, '\n<footer')
+        	.replace(/<ul class="PostStamps/g, '\n<ul class="PostStamps');
         var preview = emojione.toImage(source);
         $(this).html(preview).addClass('GBEmoji');
 	});

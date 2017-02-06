@@ -22,3 +22,4 @@ That's it!
 ## Changelog:
 
 - **v0.01:** Initial release.
+- **v0.02:** Fix emoji not being converted when next to a footer tag.
