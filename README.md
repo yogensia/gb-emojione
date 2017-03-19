@@ -1,6 +1,6 @@
 ## GameBanana Emoji
 
-Small Tampermonkey/Greasemonkey userscript that replaces emoticons like :D or :smile: with [EmojiOne](https://github.com/Ranks/emojione) emoji images.
+Small Tampermonkey/Greasemonkey userscript that replaces emoticons like `:D` or `:smile:` with [EmojiOne](https://github.com/Ranks/emojione) emoji images.
 
 Emoji will only appear on user input text (submission descriptions, messages, comments, etc.).
 
@@ -25,3 +25,4 @@ That's it!
 
 - **v0.01:** Initial release.
 - **v0.02:** Fix emoji not being converted when next to a footer tag.
+- **v0.03:** Fix emoji being converted when they shouldn't, such as edit submission forms.
